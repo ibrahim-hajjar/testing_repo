@@ -1,0 +1,462 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* witforms_pos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20201205\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-18 10:42+0000\n"
+"PO-Revision-Date: 2021-05-18 10:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "? Clicking \"Confirm\" will validate the payment."
+msgstr "سيؤدي النقر فوق تأكيد إلى التحقق من صحة الدفع"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Popups/CreditAmountPopup.xml:0
+#: code:addons/witforms_pos/static/src/xml/Popups/CreditAmountPopup.xml:0
+#, python-format
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "Are you sure that the customer wants to  pay"
+msgstr "هل أنت متأكد من أن العميل يريد الدفع"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/ProductScreen/ControlButtons/CreditButton.js:0
+#, python-format
+msgid "Cannot invoice order from closed session."
+msgstr "لا يمكن إصدار فاتورة لأمر من جلسة مغلقة"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "Cannot return change without a cash payment method"
+msgstr ""
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register__create_uid
+msgid "Created by"
+msgstr "انشأ من قبل"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/ClientListScreen/ClientListScreen.xml:0
+#, python-format
+msgid "Credit"
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/ProductScreen/ControlButtons/CrediteButton.xml:0
+#, python-format
+msgid "Credit Button"
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Customer"
+msgstr "الزبون"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Discard"
+msgstr "إلغاء"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config__display_name
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_method__display_name
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register__display_name
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_session__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Due Balance"
+msgstr "الرصيد المستحق"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "Empty Order"
+msgstr "طلب فارغ"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_account_move_line__id
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config__id
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_method__id
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register__id
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_session__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "Incorrect rounding"
+msgstr "التقريب غير الصحيح"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config__iface_start_customer_id
+msgid "Initial Client"
+msgstr "العميل الأولي"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config__invoice_creation_required
+msgid "Invoice Creation Required"
+msgstr "يتطلب إنشاء الفاتورة؟"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config__invoice_download_required
+#: model_terms:ir.ui.view,arch_db:witforms_pos.pos_custom_settings
+msgid "Invoice Download Required"
+msgstr "يتطلب تحميل الفاتورة؟"
+
+#. module: witforms_pos
+#: model_terms:ir.ui.view,arch_db:witforms_pos.pos_custom_settings
+msgid "Invoice Print Required"
+msgstr "يتطلب طباعة الفاتورة؟"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/ProductScreen/ControlButtons/UnpaidInvoiceButton.xml:0
+#, python-format
+msgid "Invoices"
+msgstr "الفواتير"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_method__is_credit_payment_method
+msgid "Is Credit Payment Method"
+msgstr "هي طريقة الدفع بالآجل"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Popups/CreditAmountPopup.xml:0
+#, python-format
+msgid "Journal"
+msgstr "اليومية"
+
+#. module: witforms_pos
+#: model:ir.model,name:witforms_pos.model_account_move_line
+msgid "Journal Item"
+msgstr "عنصر اليومية"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config____last_update
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_method____last_update
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register____last_update
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_session____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_payment_register__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Popups/CreditAmountPopup.xml:0
+#: code:addons/witforms_pos/static/src/xml/Popups/CreditAmountPopup.xml:0
+#, python-format
+msgid "Memo"
+msgstr "البيان"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Name"
+msgstr "الاسم"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/ProductScreen/ControlButtons/CreditButton.js:0
+#: code:addons/witforms_pos/static/src/js/Screens/ProductScreen/ControlButtons/CreditButton.js:0
+#, python-format
+msgid "Network Error"
+msgstr "خطأ في الشبكة"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "No Invoice"
+msgstr "لا توجد فاتورة"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/InvoiceListScreen/InvoiceListScreen.js:0
+#, python-format
+msgid "Offline"
+msgstr "غير متصل على الانترنت"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/ProductScreen/ControlButtons/CrediteButton.xml:0
+#: code:addons/witforms_pos/static/src/xml/Screens/ProductScreen/ControlButtons/CrediteButton.xml:0
+#: code:addons/witforms_pos/static/src/xml/Screens/ProductScreen/ControlButtons/UnpaidInvoiceButton.xml:0
+#: code:addons/witforms_pos/static/src/xml/Screens/ProductScreen/ControlButtons/UnpaidInvoiceButton.xml:0
+#, python-format
+msgid "Payments"
+msgstr "الدفعات"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "Please Confirm Large Amount"
+msgstr "يرجى تأكيد المبلغ الكبير"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/InvoiceListScreen/InvoiceListScreen.js:0
+#, python-format
+msgid "Please check your Amount field"
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/InvoiceListScreen/InvoiceListScreen.js:0
+#, python-format
+msgid "Please check your Memo field"
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "Please select the Customer"
+msgstr ""
+
+#. module: witforms_pos
+#: model:ir.model,name:witforms_pos.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "إعدادات نقطة البيع"
+
+#. module: witforms_pos
+#: model:ir.model,name:witforms_pos.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr ""
+
+#. module: witforms_pos
+#: model:ir.model,name:witforms_pos.model_pos_session
+msgid "Point of Sale Session"
+msgstr "جلسة نقطة البيع"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_account_move_line__pos_order_id
+msgid "Pos Sale Order"
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/InvoiceListScreen/InvoiceListScreen.js:0
+#, python-format
+msgid "Register Payment"
+msgstr "تسجيل دفعة "
+
+#. module: witforms_pos
+#: model:ir.model,name:witforms_pos.model_pos_payment_register
+msgid "Register Payment in Pos"
+msgstr "تسجيل دفعة"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Save"
+msgstr "حفظ"
+
+#. module: witforms_pos
+#: model_terms:ir.ui.view,arch_db:witforms_pos.pos_custom_settings
+msgid "Select Default Customer to start selling"
+msgstr "حدد العميل الافتراضي في نقطة البيع"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/ReceiptScreen/WhatsappReceiptScreen.xml:0
+#, python-format
+msgid "Send"
+msgstr "إرسال"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/ProductScreen/ControlButtons/CreditButton.js:0
+#, python-format
+msgid "Session is closed"
+msgstr "الجلسة مغلقة"
+
+#. module: witforms_pos
+#: model:ir.model.fields,field_description:witforms_pos.field_pos_config__start_customer
+msgid "Start Customer"
+msgstr "العميل الأفتراضي"
+
+#. module: witforms_pos
+#: model:ir.model.fields,help:witforms_pos.field_pos_config__iface_start_customer_id
+msgid ""
+"The point of sale will display this client by default. If no client is "
+"specified, all available clients will be shown."
+msgstr ""
+"The point of sale will display this client by default. If no client is "
+"specified, all available clients will be shown"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid ""
+"There is no cash payment method available in this point of sale to handle the change.\n"
+"\n"
+" Please pay the exact amount or add a cash payment method in the point of sale configuration"
+msgstr "يرجى دفع المبلغ المحدد أو إضافة طريقة دفع نقدي في تكوين نقطة البيع"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid ""
+"There must be at least one product in your order before it can be validated"
+msgstr "يجب أن يكون هناك منتج واحد على الأقل في طلبك قبل التحقق من صحته"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/InvoiceListScreen/InvoiceListScreen.xml:0
+#, python-format
+msgid "Total"
+msgstr "المجموع"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/ProductScreen/ControlButtons/CreditButton.js:0
+#, python-format
+msgid "Unable to download invoice."
+msgstr "تعذر تنزيل الفاتورة"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/ProductScreen/ControlButtons/CreditButton.js:0
+#, python-format
+msgid "Unable to invoice order."
+msgstr "تعذر إصدار الفاتورة "
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/InvoiceListScreen/InvoiceListScreen.js:0
+#, python-format
+msgid "Unable to save changes."
+msgstr "تعذر حفظ التغييرات"
+
+#. module: witforms_pos
+#: model:ir.model.fields,help:witforms_pos.field_account_move_line__pos_order_id
+msgid "Using this record for auto reconcile pos "
+msgstr "استخدام هذا السجل للتسوية التلقائية لنقاط البيع"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/xml/Screens/ReceiptScreen/WhatsappReceiptScreen.xml:0
+#, python-format
+msgid "Whatsapp Phone"
+msgstr "رقم الواتس اب"
+
+#. module: witforms_pos
+#: code:addons/witforms_pos/models/pos_payment_register.py:0
+#, python-format
+msgid "You can only register payment for posted journal entries."
+msgstr "يمكنك فقط تسجيل دفعة لإدخالات دفتر اليومية المرحلة"
+
+#. module: witforms_pos
+#: code:addons/witforms_pos/models/pos_payment_register.py:0
+#, python-format
+msgid ""
+"You can't create payments for entries belonging to different companies."
+msgstr "لا يمكنك إنشاء مدفوعات للإدخالات التي تنتمي إلى شركات مختلفة"
+
+#. module: witforms_pos
+#: code:addons/witforms_pos/models/pos_payment_register.py:0
+#, python-format
+msgid ""
+"You can't register a payment because there is nothing left to pay on the "
+"selected journal items."
+msgstr ""
+
+#. module: witforms_pos
+#: code:addons/witforms_pos/models/pos_payment_register.py:0
+#, python-format
+msgid ""
+"You can't register payments for journal items being either all inbound, "
+"either all outbound."
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "You have to create invoice before validate."
+msgstr "يجب عليك إنشاء فاتورة قبل التحقق من صحتها"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "You have to round your payments lines. is not rounded."
+msgstr ""
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "You need to select the customer before you can invoice an order."
+msgstr "تحتاج إلى تحديد العميل قبل أن تتمكن من إصدار فاتورة الطلب"
+
+#. module: witforms_pos
+#. openerp-web
+#: code:addons/witforms_pos/static/src/js/Screens/PaymentScreen/InvoiceDownload.js:0
+#, python-format
+msgid "for an order of"
+msgstr ""
