@@ -1,180 +1,219 @@
-<t name="Homepage" t-name="website.homepage">
-    <t t-call="website.layout">
-        <t t-set="pageName" t-value="'homepage'"/>
-        <div id="wrap" class="oe_structure oe_empty">
-            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96 o_full_screen_height o_cc o_cc5 o_colored_level" data-scroll-background-ratio="1" data-snippet="s_cover" style="background-image: none;" data-name="Cover">
-                <span class="s_parallax_bg oe_img_bg" style="background-image: url('/web/image/website.s_cover_default_image'); background-position: 50% 0;"/>
-                <div class="o_we_bg_filter bg-black-25"/>
-                <div class="container s_allow_columns">
-                    <div class="row">
-                        <div class="o_colored_level col-lg-5">
-                            <h1 style="text-align: left">X²O Festival</h1>
-                            <p class="lead" style="text-align: left">After a year's absence, the free and independent festival is back.</p>
-                            <p class="lead" style="text-align: left">More than ever young talents are honoured on the big stage with more famous artists.</p>
-                            <h2>21/22 December</h2>
-                            <br/>
-                            <p style="text-align: left">
-                                <a class="btn btn-primary mb-2 btn-lg" href="/contactus">Contact us</a>
-                            </p>
-                        </div>
+<!--------------- Navbar Section ----------------------------------------------------------------->
+<section style="width: 100%;font-family:sans-serif;">
+     <div style="display: flex;
+               align-items: center;
+               justify-content: center;
+               margin-top: 1vw;
+               margin-bottom: 1vw;">
+          <a href="https://apps.odoo.com/apps/browse?repo_maintainer_id=521176" target="_blank">
+               <img src="images/7D-logo.png" style="width: 100%;height: auto;" />
+          </a>
+          <div style="width: 0.2vw;
+               height: 1.5vw;
+               background-color: #a8a8a8;
+               border-radius: 1vw;
+               margin-right: 1vw;
+               margin-left: 1vw;">
+          </div>
+          <a href="https://www.odoo.com/partners/seventh-dimension-2994595?country_id=118" target="_blank">
+               <img src="images/odoo-partner-logo.png" style="width: 100%;height: auto;" />
+          </a>
+          <div style="width: 0.2vw;
+               height: 3.3vw;
+               background-color: #a2478a;
+               border-radius: 1vw;
+               margin-right: 2vw;
+               margin-left: 2vw;">
+          </div>
+          <a href="https://www.odoo.sh/" target="_blank">
+               <img src="images/odoo-sh-logo.png" style="width: 100%;height: auto;" />
+          </a>
+          <div style="width: 0.2vw;
+               height: 1.5vw;
+               background-color: #a8a8a8;
+               border-radius: 1vw;
+               margin-right: 1vw;
+               margin-left: 1vw;">
+          </div>
+          <div>
+               <img src="images/odoo-comunity-logo.png" style="width: 100%;height: auto;" />
+          </div>
+          <div style="width: 0.2vw;
+               height: 1.5vw;
+               background-color: #a8a8a8;
+               border-radius: 1vw;
+               margin-right: 1vw;
+               margin-left: 1vw;">
+          </div>
+          <div>
+               <img src="images/odoo-enterprice-logo.png" style="width: 100%;height: auto;" />
+          </div>
+          <div style="width: 0.2vw;
+               height: 1.5vw;
+               background-color: #ffffff;
+               border-radius: 1vw;
+               margin-right: 1vw;
+               margin-left: 1vw;">
+          </div>
+          <a href="mailto:APPS@7D.COM.KW" target="_blank">
+               <img src="images/email-text.png" style="width: 100%;height: auto;" />
+          </a>
+     </div>
+</section>
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<!-- -------------Hero section ------------------------------------------------------------------->
+<section
+     style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-family:sans-serif;">
+     <img src="images/hero-img.jpeg" style="width: 100%; height: auto;">
+</section>
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<!----------------------- Features Section ------------------------------------------------>
+<!-- <section style="display: grid;
+     grid-template-columns:1fr 1fr 1fr;
+     grid-template-rows: auto;
+     justify-content: center;
+     padding-bottom: 50px;
+     padding-top: 50px;
+     background-color: #ffffff;
+     margin-bottom: 50px; font-family:sans-serif;">
+     <h2 style="grid-column: 1/4; text-align: center; color: #676767; font-weight: 700;">
+          FEATURES
+     </h2>
+
+     <div
+          style="background-color: #f6edf3; border-radius: 8px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin: 20px;">
+          <img src="images/features-1.png" style="width: 90px; padding: 10px 0;" />
+          <h2 style="font-size: 20px; margin-bottom: 10px;">Publish (and Unpublish) a bulk list of products on
+               different websites at once</h2>
+          <p>text1111111.</p>
+     </div>
+     <div
+          style="background-color: #f6edf3; border-radius: 8px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin: 20px;">
+          <img src="images/features-2.png" style="width: 90px; padding: 10px 0;" />
+          <h2 style="font-size: 20px; margin-bottom: 10px;">Allows Multi-Selection of Products, either individually
+               or grouped by a specific field (like Brand, Category, etc.)
+          </h2>
+          <p>text22222.</p>
+     </div>
+     <div
+          style="background-color: #f6edf3; border-radius: 8px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin: 20px;">
+          <img src="images/features-3.png" style="width: 90px; padding: 10px 0;" />
+          <h2 style="font-size: 20px; margin-bottom: 10px;">Allows Multi-Selection of Websites that you wish to
+               Publish or Unpublish the Products</h2>
+          <p>text22222.</p>
+     </div>
+</section> -->
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<section class="s_three_columns o_cc o_cc2 pt32 pb0 o_cc o_cc5" data-vcss="001"
+     data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Blocks/04&quot;,&quot;flip&quot;:[]}"
+     data-snippet="s_three_columns" data-name="Columns">
+     <div class="o_we_shape o_web_editor_Blocks_04" style="">
+     </div>
+     <div class="container">
+          <div class="row d-flex align-items-stretch">
+               <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100">
+                         <img class="card-img-top" src="images/features-1.png" alt="" loading="lazy" style="" />
+                         <div class="card-body">
+                              <h3 class="card-title">
+                                   Wilson Holt
+                              </h3>
+                              <p class="card-text">Adapt these three columns to fit your design need. To
+                                   duplicate, delete or move columns, select the column and use the top
+                                   icons to perform your action.</p>
+                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="s_title pt40 pb40 o_cc o_cc5" data-vcss="001" data-snippet="s_title" data-name="Title">
-                <div class="container s_allow_columns">
-                    <h1>
-                        <font style="background-image: linear-gradient(135deg, var(--o-color-4) 25%, var(--o-color-1) 100%);" class="text-gradient">MAIN LINE UP</font>
-                    </h1>
-                </div>
-            </section>
-            <section class="s_text_block pb40 o_cc5 pt0 o_colored_level" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
-                <div class="container s_allow_columns">
-                    <p style="font-size:36px;">Kori Thill ■ Chana Smithwick ■ Cira Sherard ■ Elfriede Ogan ■ Mariko Yonker ■ Bella Maday ■ Shaneka Wilkerson ■ Raina Planck ■ Micaela Labonte ■ Chadwick Cottman ■ Emile Hornung ■ Genevie Mehaffey ■ Dottie Hinkson ■ Mariah Nurse ■ Velda Caster ■ Rossie Cranfield ■ Iva Madrid ■ Flossie Freitas ■ Tina Gregerson ■ Quiana Tassin </p>
-                </div>
-            </section>
-            <section class="s_three_columns o_cc o_cc2 pt32 pb0 o_cc o_cc5" data-vcss="001" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Blocks/04&quot;,&quot;flip&quot;:[]}" data-snippet="s_three_columns" data-name="Columns">
-                <div class="o_we_shape o_web_editor_Blocks_04" style=""/>
-                <div class="container">
-                    <div class="row d-flex align-items-stretch">
-                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
-                            <div class="card text-bg-white h-100">
-                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_1" alt="" loading="lazy" style=""/>
-                                <div class="card-body">
-                                    <h3 class="card-title">
-        Wilson Holt
-    </h3>
-                                    <p class="card-text">Adapt these three columns to fit your design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
-                            <div class="card text-bg-white h-100">
-                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_2" alt="" loading="lazy" style=""/>
-                                <div class="card-body">
-                                    <h3 class="card-title">
-        Theia Hayward
-    </h3>
-                                    <p class="card-text">To add a fourth column, reduce the size of these three columns using the right icon of each block. Then, duplicate one of the columns to create a new one as a copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
-                            <div class="card text-bg-white h-100">
-                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_3" alt="" loading="lazy" style=""/>
-                                <div class="card-body">
-                                    <h3 class="card-title">
-        Bruce Porter
-    </h3>
-                                    <p class="card-text">Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change its 
-                                        <em>rounded corner</em> style.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+               </div>
+               <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100">
+                         <img class="card-img-top" src="images/features-2.png" alt="" loading="lazy" style="" />
+                         <div class="card-body">
+                              <h3 class="card-title">
+                                   Theia Hayward
+                              </h3>
+                              <p class="card-text">To add a fourth column, reduce the size of these three
+                                   columns using the right icon of each block. Then, duplicate one of the
+                                   columns to create a new one as a copy.</p>
+                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="s_image_gallery o_masonry pt24 pb24 o_cc2 o_spc-medium" data-vcss="001" data-columns="3" style="overflow: hidden;" data-snippet="s_images_wall" data-name="Images Wall">
-                <div class="container">
-                    <div class="row s_nb_column_fixed">
-                        <div class="o_masonry_col o_snippet_not_selectable col-lg-4">
-                            <img class="img img-fluid d-block rounded" src="/web/image/website.library_image_03" data-index="0" data-name="Image" loading="lazy" style=""/>
-                            <img class="img img-fluid d-block rounded" src="/web/image/website.library_image_10" data-index="3" data-name="Image" loading="lazy" style=""/>
-                        </div>
-                        <div class="o_masonry_col o_snippet_not_selectable col-lg-4">
-                            <img class="img img-fluid d-block rounded" src="/web/image/website.library_image_13" data-index="1" data-name="Image" loading="lazy" style=""/>
-                            <img class="img img-fluid d-block rounded" src="/web/image/website.library_image_05" data-index="4" data-name="Image" loading="lazy" style=""/>
-                        </div>
-                        <div class="o_masonry_col o_snippet_not_selectable col-lg-4">
-                            <img class="img img-fluid d-block rounded" src="/web/image/website.library_image_14" data-index="2" data-name="Image" loading="lazy" style=""/>
-                            <img class="img img-fluid d-block rounded" src="/web/image/website.library_image_16" data-index="5" data-name="Image" loading="lazy" style=""/>
-                        </div>
+               </div>
+               <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                    <div class="card text-bg-white h-100">
+                         <img class="card-img-top" src="images/features-3.png" alt="" loading="lazy" style="" />
+                         <div class="card-body">
+                              <h3 class="card-title">
+                                   Bruce Porter
+                              </h3>
+                              <p class="card-text">Delete the above image or replace it with a picture
+                                   that illustrates your message. Click on the picture to change its
+                                   <em>rounded corner</em> style.
+                              </p>
+                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="s_title pt40 pb40 o_cc o_cc5" data-vcss="001" data-snippet="s_title" data-name="Title">
-                <div class="container s_allow_columns">
-                    <h1>
-                        <font style="background-image: linear-gradient(135deg, var(--o-color-4) 25%, var(--o-color-1) 100%);" class="text-gradient">MAIN LINE UP</font>
-                    </h1>
-                </div>
-            </section>
-            <section class="s_media_list pt32 pb32 o_cc o_cc2" data-vcss="001" data-snippet="s_media_list" data-name="Media List">
-                <div class="container">
-                    <div class="row s_nb_column_fixed s_col_no_bgcolor">
-                        <div class="col-lg-12 s_media_list_item pt16 pb16" data-name="Media item">
-                            <div class="row s_col_no_resize s_col_no_bgcolor g-0 align-items-center o_cc o_cc1">
-                                <div class="col-lg-4 align-self-stretch s_media_list_img_wrapper">
-                                    <img src="/web/image/website.s_media_list_default_image_1" class="s_media_list_img h-100 w-100" alt="" loading="lazy" style=""/>
-                                </div>
-                                <div class="col-lg-8 s_media_list_body">
-                                    <h3>
-        Old Town Road
-    </h3>
-                                    <p>
-        Everyone knows The States is the home of country music, and they have the festivals to prove it. Grab your cowboy hat and boots because we've put together the best country bands in the USA.
-    </p>
-                                    <a href="#" class="btn btn-primary mb-2">Discover</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 s_media_list_item pt16 pb16" data-name="Media item">
-                            <div class="row s_col_no_resize s_col_no_bgcolor g-0 align-items-center o_cc o_cc1">
-                                <div class="col-lg-4 align-self-stretch s_media_list_img_wrapper">
-                                    <img src="/web/image/website.s_media_list_default_image_2" class="s_media_list_img h-100 w-100" alt="" loading="lazy" style=""/>
-                                </div>
-                                <div class="col-lg-8 s_media_list_body">
-                                    <h3>
-        Smack My Band Up
-    </h3>
-                                    <p>
-        Dj's and electro artists meet every year for the electro dance festival in the largest concert venue in Europe. Book your tickets now, there won't be room for everybody.
-    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 s_media_list_item pt16 pb16" data-name="Media item">
-                            <div class="row s_col_no_resize s_col_no_bgcolor g-0 align-items-center o_cc o_cc1">
-                                <div class="col-lg-4 align-self-stretch s_media_list_img_wrapper">
-                                    <img src="/web/image/website.s_media_list_default_image_3" class="s_media_list_img h-100 w-100" alt="" loading="lazy" style=""/>
-                                </div>
-                                <div class="col-lg-8 s_media_list_body">
-                                    <h3>
-        Sodade Club
-    </h3>
-                                    <p>
-        Sodade is a beautiful concept that is difficult to put into words, but can be experienced by enjoying the diverse range of music on offer.
-    </p>
-                                    <a href="#">Continue reading 
-                                        <i class="fa fa-long-arrow-right align-middle ms-1"/>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="s_text_image pt56 pb40 o_cc o_cc1" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Blocks/04&quot;,&quot;flip&quot;:[&quot;y&quot;]}" data-snippet="s_text_image" data-name="Text - Image">
-                <div class="o_we_shape o_web_editor_Blocks_04 o_we_flip_y o_second_extra_shape_mapping o_footer_extra_shape_mapping" style=""/>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="pt16 pb16 col-lg-5 offset-lg-1">
-                            <h2>
-                                <font style="background-image: linear-gradient(135deg, var(--o-color-1) 25%, var(--o-color-2) 100%);" class="text-gradient">Music is magic</font>
-                            </h2>
-                            <p>
-        Open 24/7, the club welcomes you and your friends in a relaxed and friendly atmosphere.
-    </p>
-                            <p>
-                                <a href="/contactus" class="btn btn-primary mb-2">Learn more</a>
-                            </p>
-                        </div>
-                        <div class="col-lg-6 pt16 pb16">
-                            <img src="/web_editor/image_shape/website.s_text_image_default_image/web_editor/basic/bsc_square_3.svg" class="img img-fluid mx-auto" alt="" data-shape="web_editor/basic/bsc_square_3" data-original-mimetype="image/jpeg" data-file-name="s_text_image.svg" data-shape-colors=";;;;" loading="lazy" style=""/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </t>
-</t>
+               </div>
+          </div>
+     </div>
+</section>
+
+
+<!----------------------- HOW IT WORKS Section ------------------------------------------------>
+<section style="
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     justify-content: center;
+     background-color: #f6edf3;
+     padding-bottom: 50px;
+     padding-top: 50px;
+     font-family:sans-serif;">
+     <h2 style="grid-column: 1/4; text-align: center; color: #676767; font-weight: 700;">
+          HOW IT WORKS
+     </h2>
+     <div
+          style="background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin: 20px;">
+          <img src="images/HIW-1.png" style="width: 90px; padding: 10px 0;" />
+          <h2 style="font-size: 20px; margin-bottom: 10px;">The Selection
+          </h2>
+          <p>On a List View of Product-Card, Multi-Select the Products you either want to
+               Publish or Unpublish.</p>
+     </div>
+     <div
+          style="background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin: 20px;">
+          <img src="images/HIW-2.png" style="width: 90px; padding: 10px 0;" />
+          <h2 style="font-size: 20px; margin-bottom: 10px;">The Action</h2>
+          <p>Once the List has been selected, Click "Action" > "Publish/Unpublish".</p>
+     </div>
+     <div
+          style="background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin: 20px;">
+          <img src="images/HIW-3.png" style="width: 90px; padding: 10px 0;" />
+          <h2 style="font-size: 20px; margin-bottom: 10px;">The Pop-Up</h2>
+          <p>You get a Pop-Up to select the Website(s) and Confirm "Publish/Unpublish"
+               button.</p>
+     </div>
+</section>
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<!----------------------- images Section ------------------------------------------------>
+<section style="
+     background-color: #E4C5E1;
+     padding: 10px;
+     font-family:sans-serif;">
+     <div style="padding: 5vw 3vw;">
+          <a href="https://www.youtube.com/embed/RWIQXLWfBwM" target="_blank"
+               style="text-decoration: none; display: block; text-align: center;">
+
+               <img src="images/9_video_img_1.jpeg" alt="Image 1"
+                    style="width:80%; box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);">
+          </a>
+     </div>
+</section>
+<!-- ------------------------------------------------------------------------------------------ -->
+
+<!-- Footer Section -->
+<section style="width: 100%;font-family:sans-serif;">
+     <img src="images/footer-gif.gif" style="padding-top: 25px; width: 100%;height: auto;">
+</section>
+<!-- ------------------------------------------------------------------------------------------ -->
